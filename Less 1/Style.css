@@ -1,0 +1,21 @@
+body{
+    font-family: Tahoma;
+}
+h1{
+    border: 3px solid grey;
+    background: rgba(128, 128, 128, 0.3);
+    text-align: center; /* центрирование текста */
+}
+h2{
+    text-decoration: underline; /* подчеркивание заголовка */
+
+}
+img{
+    width: 250px;
+}
+div{
+    border: 3px solid grey;
+}
+p{
+    text-indent: 20px;
+}
