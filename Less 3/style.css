@@ -1,0 +1,147 @@
+body{
+    margin: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.logo{
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #244BD3;
+
+    padding: none;
+    margin: none;
+    display: inline-block;
+    width:15%;
+}
+
+.main-menu{
+    display: inline-block;
+    padding: 0;
+    text-decoration: none;
+    color: #212121;
+    width:60%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.main-menu-list{
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+}
+
+.main-menu-list-a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #212121;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+}
+
+.contacts{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    color: #292E3E;
+    width:20%;
+    display: inline-block;
+}
+
+/* section */
+/* Блок 1 (картинки) */
+.section-item-1 img{
+    height: 400px;
+    padding: 3px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    color: #292E3E;;
+}
+
+/* Блок 2 (заголовок, текст, картинка) */
+.section-item-2{
+    display: inline-block;
+}
+.section-item-2 img{ /* для самой картинки */
+    height: 80px;
+    padding: 3px;
+    width:50%;
+    float: right;
+}
+.section-item-2-text{ /* для блока с текстом */
+    width:60%;
+}
+.section-item-2-img{ /* для блока с картинкой */
+    width:30%;
+}
+
+/* Блок 3  */
+.section-item-3{
+    display: inline-block;
+    margin: none;
+}
+.section-item-3-a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #212121;
+}
+
+/* Блок 4 */
+.section-item-4{
+    display: inline-block;
+    margin: none;
+    width:33%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #424242;
+   
+}
+
+/* footer */
+.footer-div{
+    display: inline-block;
+    margin: none;
+    width:33%;
+    
+}
+footer p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: #424242;
+}
