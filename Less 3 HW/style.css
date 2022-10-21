@@ -1,0 +1,473 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+/*Привязка footer вниз*/
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrap1 {
+    flex: 1;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*Верхняя часть header*/
+.top-header {
+    display: flex;
+    align-items: center;
+}
+
+.top-header-nav {
+    width: 945px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 159px;
+    height: 26px;
+    margin-right: 37px;
+}
+
+li {
+    list-style: none;
+}
+
+.top-header-nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    color: #424242;
+    margin: 12px;
+}
+
+.main-menu-list a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #424242;
+    display: flex;
+    justify-content: space-between;
+    height: 18px;
+}
+
+.top-menu-list-rigth {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+    align-items: center;
+}
+
+.top-menu-list-left {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 19px;
+}
+
+.main-menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Нижняя часть header*/
+.bottom-header {
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+/*Банер*/
+.main-banner-fon {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 110%;
+    color: #212121;
+}
+
+span {
+    color: #3A95FF;
+}
+
+/*Кнопки*/
+.blue-button {
+    text-decoration: none;
+    padding: 17px 26px;
+    width: 200px;
+    height: 55px;
+    background: #3A95FF;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-right: 37px;
+}
+
+.white-button {
+    text-decoration: none;
+    padding: 17px 51px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #3A95FF;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3A95FF;
+}
+
+/*Section*/
+.big-text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin: 70px 0 25px 0;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 0 70px 0;
+}
+
+section {
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: none;
+    margin-bottom: 58px;
+}
+
+.section-item {
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: 555px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    padding: none;
+    margin-bottom: 62px;
+}
+
+.section-item img {
+    width: 262px;
+    height: 300px;
+}
+
+.section-item-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-item-big-text {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #212121;
+    margin: 34px 34px 0 34px;
+}
+
+.section-item-small-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #424242;
+    margin: 24px 0 0 34px;
+}
+
+
+/*Блок кредитная карта*/
+.Cards {
+    background: #EFF2F5;
+}
+
+.credit-cards {
+    height: 500px;
+    display: flex;
+    margin-top: 137px;
+    margin-bottom: 138px;
+}
+
+/*Блок кредитная карта правая часть*/
+.credit-cards-rigth {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-right: 30px;
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.credit-cards-rigth-item {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: none;
+    margin: 0;
+}
+
+/*верхняя треть*/
+.credit-cards-rigth-item-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 99px;
+}
+
+.credit-cards-rigth-item-top {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.credit-cards-rigth-item-top p {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+}
+
+/*центральная треть*/
+.credit-cards-rigth-item-2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: none;
+    margin-left: 99px;
+    margin-right: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.credit-cards-rigth-item-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.part-top {
+    border-bottom: 1px solid #3A95FF;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+}
+
+.part-botton {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #424242;
+}
+
+/*Знак рубля*/
+.rub {
+    line-height: 3px;
+    width: 0.4em;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    color: #000;
+}
+
+/*нижняя треть*/
+.credit-cards-rigth-item-3 {
+    margin-left: 99px;
+}
+
+/* Блок кредитная карта Левая часть*/
+.credit-cards-left {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.credit-cards-left-item {
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: none;
+    text-decoration: none;
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3A95FF;
+}
+
+.credit-cards-left-item-a {
+    flex: 5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: none;
+    text-decoration: none;
+}
+
+.mar-bot {
+    margin-bottom: 27px;
+}
+
+.credit-cards-left-item-2 {
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 34px;
+    padding-left: 34px;
+    width: 150px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #212121;
+}
+
+.credit-cards-left-item-2 img {
+    width: 48px;
+    height: 48px;
+}
+
+.img-rigth {
+    align-items: flex-end;
+    padding-left: 243px;
+    padding-bottom: 34px;
+}
+
+/*Блок Как получить карту*/
+.how-get-card-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 137px;
+}
+
+.how-get-card-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.how-get-card-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #212121;
+}
+
+/*Footer*/
+footer {
+    background: #EFF2F5;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
+
+.footer-item-2 {
+    font-size: 14px;
+    line-height: 130%;
+    color: #424242;
+    margin-bottom: 22px;
+}
+
+.debet-section-item {
+    width: 1140px;
+    height: 402px;
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    padding: none;
+    margin: 35px 0;
+}
+
+.debet-section-item-rigth {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.debet-section-item-big-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #212121;
+}
+
+.debet-section-item-small-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #424242;
+}

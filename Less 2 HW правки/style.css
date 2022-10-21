@@ -1,0 +1,171 @@
+body {
+    margin: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrap1 {
+    flex: 1;
+}
+
+header {
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header-top {
+    padding: 0;
+    text-decoration: none;
+    color: #212121;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu {
+    display: flex;
+    padding: 0;
+    text-decoration: none;
+    color: #212121;
+}
+
+.main-menu-list {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.main-menu-list-a {
+    margin: 0 27.5px;
+    text-decoration: none;
+    color: #212121;
+    font-size: 16px;
+}
+
+.contacts {
+    font-size: 20px;
+    color: #292E3E;
+}
+
+/* section */
+
+/* Блок 1 (Банер) */
+.section-item {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.bacgr {
+    background-image: url(./img/big-banner.png);
+    width: 848px;
+    background-repeat: no-repeat;
+    padding-top: 179px;
+    padding-left: 54px;
+}
+
+.section-item-baner {
+    display: flex;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+
+/* Блок 2 (заголовок, текст, картинка) */
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    color: #292E3E;
+    margin-top: 92px;
+    margin-bottom: 92px;
+}
+
+
+.section-item-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #424242;
+}
+
+
+.section-item-2 img {
+    width: 360px;
+    height: 232px;
+}
+
+
+/* Блок 3 Что у нас есть в прокате */
+.section-item-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-item-3-a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #212121;
+}
+
+/* Блок 4 Почему нас любят и выбирают? */
+.section-item-4 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #424242;
+
+}
+
+/* footer */
+
+footer {
+    background: #EFF2F5;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #424242;
+}
